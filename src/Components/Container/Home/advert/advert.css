@@ -1,0 +1,72 @@
+.advert_container{
+ position: relative;
+}
+.advert_textContent{
+ width:20rem;
+ margin: auto;
+}
+
+.advert_content img{
+ width: 100%;
+height: 7rem;
+object-fit: cover;
+margin: 2rem 0;
+}
+.advert_text{
+ position:absolute;
+ text-align: center;
+ top: 3.5rem;
+}
+.advert_text h4{
+ color: black;
+}
+@media screen and (max-width: 768px) {
+ .advert_container{
+  position: relative;
+ }
+ .advert_textContent{
+  width:20rem;
+  margin: auto;
+ }
+ 
+ .advert_content img{
+  width: 100%;
+ height: 4rem;
+ object-fit: cover;
+ margin: 2rem 0;
+ }
+ .advert_text{
+  position:absolute;
+  text-align: center;
+  top: 2.9rem;
+  width: 22rem;
+  margin: auto;
+ }
+ .advert_text span{
+  background: yellow;
+  padding: 0 1rem;
+ }
+ .advert_text h4{
+  color: black;
+  font-size: 1rem;
+ }
+}
+@media screen and (max-width: 375px) {
+ .advert_content img{
+  width: 100%;
+ height: 4rem;
+ object-fit: cover;
+ margin: 2rem 0;
+ }
+ .advert_text{
+  position:absolute;
+  text-align: center;
+  top: 2.9rem;
+  width: 18rem;
+  margin: auto;
+ }
+ .advert_text h4{
+  color: black;
+  font-size: .8rem;
+ }
+}

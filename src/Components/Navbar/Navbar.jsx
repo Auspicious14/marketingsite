@@ -24,7 +24,7 @@ const Nvabar = () => {
  const [toggleMenu, setToggleMenu] = useState(false)
  return ( 
   <div className="container">
-   <div className="content-container">
+   <div className="nav-container">
 
     <div className="logo">
      <h4>Pharmacist</h4>

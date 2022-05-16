@@ -12,7 +12,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  width:80%;
+  width:90%;
 margin:  auto;
 }
 
@@ -23,7 +23,13 @@ code {
 .container{
  margin-top: 15px;
 }
-
+ul{
+ list-style-type: none;
+}
+li{
+ margin:1rem;
+ font-weight: bolder;
+}
 
 
 
